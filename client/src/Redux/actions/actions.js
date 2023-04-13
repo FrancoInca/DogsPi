@@ -23,22 +23,7 @@ export const getByName = (name) => async (dispatch) => {
     payload: response.data,
   });
 };
-/*export const getByName = (name) => async (dispatch) => {
-  try {
-    const response = await axios.get(`/dogs?name=` + name);
-    if (response.data.length > 0) {
-      return dispatch({
-        type: "GET_BY_NAME",
-        payload: response.data,
-      });
-    } else {
-      dispatch({ type: "SET_NOT_FOUND" });
-    }
-  } catch (error) {
-    console.error(error);
-  }
-};
-*/
+
 
 export const getDogId = (id) => {
   return async function (dispatch) {
