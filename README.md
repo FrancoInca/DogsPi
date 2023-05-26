@@ -22,8 +22,7 @@ Puedes explorar el proyecto de las siguientes formas:
 1. **Clonar el repositorio**: Si deseas explorar el código fuente y ejecutar el proyecto en tu entorno local, puedes clonar este repositorio utilizando el siguiente comando en tu terminal: 
 
    ```
-   git clone https://github.com/tu-usuario/dogs-project.git
-   ```
+git clone https://github.com/tu-usuario/dogs-project.git   ```
 Asegúrate de tener instaladas todas las dependencias necesarias para configurar y ejecutar la aplicación. 🖥️💻
 
 2. **Descargar el archivo ZIP**: También puedes descargar el código fuente del proyecto en formato ZIP. Una vez descargado, descomprime el archivo y sigue las instrucciones del archivo `README.md` para configurar y ejecutar la aplicación. 📦💡
