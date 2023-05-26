@@ -24,8 +24,7 @@ Puedes explorar el proyecto de las siguientes formas:
    ```
    git clone https://github.com/tu-usuario/dogs-project.git
    ```
-
-   Asegúrate de tener instaladas todas las dependencias necesarias y sigue las instrucciones del archivo `README.md` en la raíz del proyecto para configurar y ejecutar la aplicación. 🖥️💻
+Asegúrate de tener instaladas todas las dependencias necesarias para configurar y ejecutar la aplicación. 🖥️💻
 
 2. **Descargar el archivo ZIP**: También puedes descargar el código fuente del proyecto en formato ZIP. Una vez descargado, descomprime el archivo y sigue las instrucciones del archivo `README.md` para configurar y ejecutar la aplicación. 📦💡
 
