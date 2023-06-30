@@ -6,7 +6,7 @@ import { createDogs, getAllTemperament } from "../../Redux/actions/actions";
 import style from "./CreateDogs.module.css";
 import { Link } from "react-router-dom";
 import Image from "../Image/corgi.jpg";
-import { useHistory } from "react-router-dom";
+import { useNavigate } from "react-router-dom";
 
 
 export default function CreateDogs() {
@@ -23,7 +23,7 @@ export default function CreateDogs() {
 
   const dispatch = useDispatch();
   const temperaments = useSelector((state) => state.temperaments);
-  const history = useHistory();
+  const navigate = useNavigate();
 
 
   useEffect(() => {
@@ -113,7 +113,7 @@ export default function CreateDogs() {
         .then(() => {
           setDogCreated(true);
           alert("Dog created successfully!"); 
-          history.push("/home");
+          navigate("/home");
        
           
          // Update state to true once the dog has been successfully created
